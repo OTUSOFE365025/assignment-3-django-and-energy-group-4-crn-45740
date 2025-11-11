@@ -1,16 +1,9 @@
-import sys
+from django.db import models
 
-try:
-    from django.db import models
-except Exception:
-    print('Exception: Django Not Found, please install it with "pip install django".')
-    sys.exit()
-
-
-# Sample User model
-class User(models.Model):
-    name = models.CharField(max_length=50, default="Dan")
+class Product(models.Model):
+    upc = models.CharField(max_length=32, unique=True)
+    name = models.CharField(max_length=200)
+    price = models.DecimalField(max_digits=9, decimal_places=2)
 
     def __str__(self):
-        return self.name
-
+        return f"{self.upc} - {self.name} (${self.price})"
