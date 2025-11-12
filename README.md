@@ -100,3 +100,33 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Description of my code
+
+
+ main.py is where all  the  main  code for the program is,  incuding  the  GUI
+
+ What it does in the file is that it takes the input of the UPC number and gives out the name of the product, the quantity, and the price. All through a GUI interface.
+
+
+ The setting.py is how we made the project configuration, and after we did that,t we also got the rest of the source files for Django
+
+
+ The Manage.py is where we tell Django what to do for the databases, the ORM, and the servers.
+
+ And finally, the models.py is how we used the model to represent the logic and the table of our database. Plus, we also defined the database through this. like UPC, name, price.
+
+
+ 
+
+
+
+Here  are  the images
+
+![Alt text](images/screenshot.png)
+
+
+
+
+
