@@ -1,3 +1,4 @@
+ [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-cPJVYMd)
 Django ORM Standalone
 =====================
 
@@ -99,3 +100,37 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Description of my code and structure
+
+
+ main.py is where all  the  main  code for the program is,  incuding  the  GUI
+
+ What it does in the file is that it takes the input of the UPC number and gives out the name of the product, the quantity, and the price. All through a GUI interface.
+
+
+ The setting.py is how we made the project configuration, and after we did that,t we also got the rest of the source files for Django
+
+
+ The Manage.py is where we tell Django what to do for the databases, the ORM, and the servers.
+
+ And finally, the models.py is how we used the model to represent the logic and the table of our database. Plus, we also defined the database through this. like UPC, name, price.
+
+ there  waas  the  Django  ORM usage  through comands like  objects.create, objects.get, objects.c ount
+
+
+ 
+
+
+
+Here  are  the images
+
+![GUI](https://i.imgur.com/JH1cSxB.png)
+
+![GUI](https://i.imgur.com/M0IdkVF.png)
+
+
+
+
+
